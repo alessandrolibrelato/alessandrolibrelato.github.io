@@ -85,6 +85,10 @@ input, select, textarea {
 	body {
 		background: #fff;
 		overflow: hidden;
+		-moz-user-select: none;
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
